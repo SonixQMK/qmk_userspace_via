@@ -9,20 +9,20 @@
 
 ## QMK Pull Request
 
-<!--- VIA support for new keyboards MUST be in QMK master already -->
+<!--- VIA support for new keyboards MUST be in SonixQMK sn32_develop already -->
 
-<!--- Add link to QMK Pull Request here. -->
+<!--- Add link to SonixQMK Pull Request here. -->
 
 <!--- THIS IS MANDATORY. -->
 
-<!--- IF THERE IS NO LINK TO SHOW VIA SUPPORT IS IN QMK MASTER ALREADY, -->
+<!--- IF THERE IS NO LINK TO SHOW VIA SUPPORT IS IN SonixQMK sn32_develop ALREADY, -->
 <!--- THIS PR WILL BE CLOSED IMMEDIATELY FOR WORKFLOW REASONS.  -->
 
 ## Checklist
 
 <!--- Put an `x` in all the boxes that apply. -->
 
-- [ ] The VIA support for this keyboard is **MERGED** in QMK master already **(MANDATORY)**
+- [ ] The VIA support for this keyboard is **MERGED** in SonixQMK sn32_develop already **(MANDATORY)**
 - [ ] I have tested this keyboard definition with firmware on a device.**(MANDATORY)**
 - [ ] VIA keymap uses custom menus
 - [ ] The Vendor ID is not `0xFEED`
