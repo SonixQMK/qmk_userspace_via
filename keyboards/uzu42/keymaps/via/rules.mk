@@ -1,3 +1,0 @@
-VIA_ENABLE = yes
-LTO_ENABLE = yes
-MAGIC_ENABLE = no
