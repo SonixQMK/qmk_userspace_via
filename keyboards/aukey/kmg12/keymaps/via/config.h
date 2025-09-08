@@ -19,3 +19,4 @@
 
 /* Define dynamic keymap layer count */
 #define DYNAMIC_KEYMAP_LAYER_COUNT 2
+#define USB_DEFAULT_BUFFER_CAPACITY 2
