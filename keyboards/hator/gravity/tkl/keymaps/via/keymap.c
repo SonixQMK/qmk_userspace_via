@@ -23,7 +23,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
     [0] = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU) },
-    [1] = { ENCODER_CCW_CW(RGB_VAD, RGB_VAI) },
+    [1] = { ENCODER_CCW_CW(RM_VALD, RM_VALU) },
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
@@ -52,12 +52,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LCTL, KC_LGUI, KC_LALT,                            KC_SPC,                             KC_RALT, MO(1),   KC_APP,  KC_RCTL,    KC_LEFT, KC_DOWN, KC_RGHT
     ),
     [1] = LAYOUT(
-	    EE_CLR,             KC_VOLD,  KC_VOLU,   KC_MUTE,    KC_MPLY,    KC_MYCM,    KC_WHOM,    KC_WFAV,    KC_CPNL,    KC_CALC,    KC_MAIL, KC_BRID,  KC_BRIU,      RGB_HUD,  RGB_TOG,   RGB_HUI,
-		QK_BOOT,  _______,  _______,  _______,   _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______, _______,  _______,      _______,  RGB_MOD,   _______,
+	    EE_CLR,             KC_VOLD,  KC_VOLU,   KC_MUTE,    KC_MPLY,    KC_MYCM,    KC_WHOM,    KC_WFAV,    KC_CPNL,    KC_CALC,    KC_MAIL, KC_BRID,  KC_BRIU,      RM_HUED,  RM_TOGG,   RM_HUEU,
+		QK_BOOT,  _______,  _______,  _______,   _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______, _______,  _______,      _______,  RM_NEXT,   _______,
 		NK_TOGG,  _______,  _______,  _______,   _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______, _______,  _______,      RGB_M_T,  RGB_M_SN,  RGB_M_X,
 		_______,  _______,  _______,  _______,   _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,           _______,      _______,   _______,
-		_______,            _______,  _______,   _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,           _______,                 RGB_VAI,
-		_______,  AG_LSWP,  AG_LNRM,                                     _______,                                        _______,    _______, GU_TOGG,  _______,      RGB_SPD,   RGB_VAD,  RGB_SPI
+		_______,            _______,  _______,   _______,    _______,    _______,    _______,    _______,    _______,    _______,    _______,           _______,                 RM_VALU,
+		_______,  AG_LSWP,  AG_LNRM,                                     _______,                                        _______,    _______, GU_TOGG,  _______,      RM_SPDD,   RM_VALD,  RM_SPDU
     )
 
 };
